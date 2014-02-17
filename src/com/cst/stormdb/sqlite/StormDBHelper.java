@@ -98,7 +98,7 @@ public class StormDBHelper extends SQLiteOpenHelper {
 	 * @param db
 	 */
 	private void insertAllFromTemp(SQLiteDatabase db) {
-		//		insertFromTemp(db, RoomChat.TABLE_NAME_TEMP, RoomChat.TABLE_NAME);
+//		insertFromTemp(db, RoomChat.TABLE_NAME_TEMP, RoomChat.TABLE_NAME);
 	}
 
 	/**

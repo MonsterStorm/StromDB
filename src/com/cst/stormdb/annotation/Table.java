@@ -16,6 +16,8 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 public @interface Table {
+	// temp postfix for table name
+	public static final String TEMP_POSTFIX = "__TEMP";
 
 	/**
 	 * name of the table, when used, StormDB will create a table with name of this value
@@ -23,4 +25,5 @@ public @interface Table {
 	 * @return
 	 */
 	public String name();
+
 }
